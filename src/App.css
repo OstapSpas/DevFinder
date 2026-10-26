@@ -104,6 +104,11 @@ a{
   cursor: pointer;
 
   transition: background-color 0.2s ease, transform 0.1s ease;
+
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .button-finder:hover {
@@ -119,3 +124,51 @@ a{
   outline-offset: 2px;
 }
 
+/* Card Content */
+
+.card-content{
+  height: 440px;
+  width: 420px;
+  background-color: #8066EB;
+  opacity: 0.8;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.card-logo{
+  width: 100%;
+  text-align: center;
+  
+}
+
+.card-logo img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+
+}
+.card-info{
+
+}
+
+.card-userName{
+ font-weight: 500;
+ font-size: 24px;
+
+}
+
+.card-smallBioUser{
+
+}
+
+.card-location{
+
+}
+
+.card-created-user{
+
+}
