@@ -5,7 +5,8 @@ body{
     font-family: 'Roboto', sans-serif;
 
     margin: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    /* height: 100vh; */
     background: linear-gradient(180deg, #311573 68%, #5C27D9 100%);
     background-attachment: fixed;
 
@@ -17,6 +18,24 @@ a{
     text-decoration: none;
 }
 
+.main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.main-acitons{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
 .input-finder {
   width: 506px;
   max-width: 100%;
