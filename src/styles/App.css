@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* 
 
 body{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    /* min-height: 100vh; */
+    /* height: 100vh; */
+    /* background: linear-gradient(180deg, #311573 68%, #5C27D9 100%); */
+    /* background-attachment: fixed; */
+
+    /* color: #fff; */
+    /* padding: 20px; */
+/* } */
+
+
+body {
     font-family: 'Roboto', sans-serif;
 
     margin: 0;
@@ -14,9 +28,22 @@ body{
     padding: 20px;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, #311573 68%, #5C27D9 100%);
+}
 a{
     text-decoration: none;
 }
+.empty-info{
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
 
 .main-text{
     display: flex;
@@ -62,9 +89,7 @@ a{
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4), 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-logo{
 
-}
 
 
 .header-logo a{
@@ -124,51 +149,3 @@ a{
   outline-offset: 2px;
 }
 
-/* Card Content */
-
-.card-content{
-  height: 440px;
-  width: 420px;
-  background-color: #8066EB;
-  opacity: 0.8;
-  border-radius: 16px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-}
-
-.card-logo{
-  width: 100%;
-  text-align: center;
-  
-}
-
-.card-logo img{
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-
-}
-.card-info{
-
-}
-
-.card-userName{
- font-weight: 500;
- font-size: 24px;
-
-}
-
-.card-smallBioUser{
-
-}
-
-.card-location{
-
-}
-
-.card-created-user{
-
-}

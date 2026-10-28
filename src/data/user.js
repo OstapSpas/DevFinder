@@ -31,7 +31,19 @@ export const mockRepos = [
     html_url: "https://github.com/OstapSpas/Spendly",
     stargazers_count: 0,
 
+  },
+  {
+  id:3,
+  name: "Orbiq",
+  description: null,
+  language: "JavaScript",
+  html_url: "https://github.com/OstapSpas/Orbiq",
+  stargazers_count: 5,
+
   }
+ 
+
+
 ];
 
 

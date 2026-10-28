@@ -11,7 +11,7 @@ export default function BioCard({about}){
                 {about ? (
                     <Markdown>{about}</Markdown>
                 ): (
-                    <p>{"This developer hasn't written a bio yet."}</p>
+                    <p className="empty-info">{"This developer hasn't written a bio yet."}</p>
                 )}
             </div>
         </div>
